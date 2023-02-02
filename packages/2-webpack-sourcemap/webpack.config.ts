@@ -8,7 +8,7 @@ const config: webpack.Configuration = {
   devtool: "eval-source-map",
   output: {
     path: path.resolve(__dirname, "build"),
-    filename: "foo.bundle.js"
+    filename: "foo.bundle.js",
   },
 };
 
