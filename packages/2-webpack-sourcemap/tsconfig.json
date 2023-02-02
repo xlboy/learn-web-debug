@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "nodenext"
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}

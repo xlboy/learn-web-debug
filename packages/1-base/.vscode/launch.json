@@ -12,13 +12,13 @@
       ]
     },
     {
-      "name": "base-1_2",
+      "name": "1-base__2",
       "port": 9222,
       "request": "attach",
       "type": "chrome"
     },
     {
-      "name": "base-1_3",
+      "name": "1-base__3",
       "request": "launch",
       "url": "http://localhost:10001",
       "type": "chrome",

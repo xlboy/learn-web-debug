@@ -7,6 +7,10 @@
     {
       "path": "../packages/1-base",
       "name": "1-base"
+    },
+    {
+      "path": "../packages/2-webpack-sourcemap",
+      "name": "2-webpack-sourcemap"
     }
   ],
   "settings": {}

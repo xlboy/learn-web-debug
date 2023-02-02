@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "name": "2-webpack-sourcemap__1",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/index.html",
+      "skipFiles": ["<node_internals>/**"],
+    }
+  ]
+}

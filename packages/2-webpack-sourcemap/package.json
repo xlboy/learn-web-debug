@@ -1,0 +1,12 @@
+{
+  "name": "2-webpack-sourcemap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
