@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "name": "1-base__1",
+      // 对应上服务（vite启动的web服务）的端口号，需要先启动
+      "url": "http://localhost:10001",
+      "request": "launch",
+      "type": "chrome",
+      "skipFiles": [
+        "${workspaceFolder}/node_modules/**/*",
+        "<node_internals>/**/*.js"
+      ]
+    },
+    {
+      "name": "base-1_2",
+      "port": 9222,
+      "request": "attach",
+      "type": "chrome"
+    },
+    {
+      "name": "base-1_3",
+      "request": "launch",
+      "url": "http://localhost:10001",
+      "type": "chrome",
+      "userDataDir": false,
+      "runtimeArgs": [
+        "--auto-open-devtools-for-tabs"
+      ]
+    }
+  ]
+}
