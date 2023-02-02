@@ -16,6 +16,10 @@
       "path": "../packages/3-vue-webpack-sourcemap",
       "name": "3-vue-webpack-sourcemap"
     },
+    {
+      "path": "../packages/4-vue-vite-sourcemap",
+      "name": "4-vue-vite-sourcemap"
+    },
   ],
   "settings": {}
 }
