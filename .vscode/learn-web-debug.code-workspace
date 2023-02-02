@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "..",
+      "name": "root"
+    },
+    {
+      "path": "../packages/1-base",
+      "name": "1-base"
+    }
+  ],
+  "settings": {}
+}
