@@ -11,7 +11,11 @@
     {
       "path": "../packages/2-webpack-sourcemap",
       "name": "2-webpack-sourcemap"
-    }
+    },
+    {
+      "path": "../packages/3-vue-webpack-sourcemap",
+      "name": "3-vue-webpack-sourcemap"
+    },
   ],
   "settings": {}
 }
