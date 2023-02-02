@@ -9,8 +9,8 @@
       "name": "1-base"
     },
     {
-      "path": "../packages/2-webpack-sourcemap",
-      "name": "2-webpack-sourcemap"
+      "path": "../packages/2-js-html-webpack-sourcemap",
+      "name": "2-js-html-webpack-sourcemap"
     },
     {
       "path": "../packages/3-vue-webpack-sourcemap",

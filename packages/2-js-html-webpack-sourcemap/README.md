@@ -1,6 +1,6 @@
-# 2-webpack-sourcemap
+# 2-js-html-webpack-sourcemap
 
-- webpack-sourcemap__1
+- js-html-webpack-sourcemap__1
 
     - `file` 型的调试方式，对 target-file 进行通讯连接。
         

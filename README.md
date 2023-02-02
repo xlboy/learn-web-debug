@@ -4,6 +4,8 @@
 
 ## 目录
 
-1. [调试基本的 **web-server**](./packages/1-base/)
+1. [1-base](./packages/1-base/)
 
-2. [调试 **webpack** 生成的 **bundle**](./packages/2-webpack-sourcemap/)
+2. [2-js-html-webpack-sourcemap](./packages/2-js-html-webpack-sourcemap/)
+
+3. [3-vue-webpack-sourcemap](./packages/3-vue-webpack-sourcemap/)

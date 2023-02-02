@@ -1,7 +1,7 @@
 {
   "configurations": [
     {
-      "name": "2-webpack-sourcemap__1",
+      "name": "2-js-html-webpack-sourcemap__1",
       "type": "chrome",
       "request": "launch",
       "file": "${workspaceFolder}/index.html",
