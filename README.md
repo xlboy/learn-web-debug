@@ -11,3 +11,5 @@
 [3-vue-webpack-sourcemap](./packages/3-vue-webpack-sourcemap/)
 
 [4-vue-vite-sourcemap](./packages/4-vue-vite-sourcemap/)
+
+[5-link-source-on-node-script](./packages/5-link-source-on-node-script/)

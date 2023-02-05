@@ -20,6 +20,12 @@
       "path": "../packages/4-vue-vite-sourcemap",
       "name": "4-vue-vite-sourcemap"
     },
+    {
+      "path": "../packages/5-link-source-on-node-script",
+      "name": "5-link-source-on-node-script"
+    }
   ],
-  "settings": {}
+  "settings": {
+    "typescript.tsdk": "root\\node_modules\\typescript\\lib"
+  }
 }

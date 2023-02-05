@@ -23,9 +23,7 @@
       "url": "http://localhost:10001",
       "type": "chrome",
       "userDataDir": false,
-      "runtimeArgs": [
-        "--auto-open-devtools-for-tabs"
-      ]
+      "runtimeArgs": ["--auto-open-devtools-for-tabs"]
     }
   ]
 }

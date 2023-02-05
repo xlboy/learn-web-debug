@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "name": "5-link-source-on-node-script__1",
+      "request": "launch",
+      "program": "${workspaceFolder}/app.mjs",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node",
+      "sourceMapPathOverrides": {
+        "webpack://lib-source/*": "${workspaceFolder}/source/*"
+      }
+    },
+    {
+      "name": "5-link-source-on-node-script__2",
+      "request": "attach",
+      "type": "node",
+      "skipFiles": ["<node_internals>/**", "**/source/webpack/**"],
+      "port": 9229,
+      "sourceMapPathOverrides": {
+        "webpack://lib-source/*": "${workspaceFolder}/source/*"
+      }
+    }
+  ]
+}
