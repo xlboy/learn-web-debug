@@ -20,7 +20,11 @@
 
     2. 在 `source/main.mjs` 中的 `[断点2]` 注释处添加断点
 
-  - 这种**直接执行**的方式，需要在*入口处*添加断点，否则无法触发 source 中的断点
+  - 这种**直接执行**的方式，需要在*入口处*添加断点，否则无法触发 source 中的断点（或在 `launch.json` 中添加 `stopOnEntry: true`）
+
+  - 之所以要在*入口处*（主领域）中添加断点，也是为了让 `VSCode Debugger` 能在主领域的断点运行处读取到相关文件的 sourcemap 所对应的 **VSCode 断点内容**（并非 js 的 debugger 命令）
+
+    *** 
 
 - link-source-on-node-script\_\_2
 

@@ -6,6 +6,7 @@
       "program": "${workspaceFolder}/app.mjs",
       "skipFiles": ["<node_internals>/**"],
       "type": "node",
+      // "stopOnEntry": true,
       "sourceMapPathOverrides": {
         "webpack://lib-source/*": "${workspaceFolder}/source/*"
       }
